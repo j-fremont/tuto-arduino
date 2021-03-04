@@ -4,5 +4,5 @@
 
 Allumer une LED lorsque la valeur de la luminosité descend en dessous d'une certaine valeur.
 
-Pour afficher la valeur de la luminosité mesurée par le capteur, aller dans l'IDE Arduino, menu Outils, choisir Moniteur série.
+Pour afficher la valeur de la luminosité mesurée par le capteur, aller dans l'IDE Arduino, menu Outils, choisir Moniteur série. C'est la valeur affichée par le ligne Serial.println(val).
  
