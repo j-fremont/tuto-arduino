@@ -10,14 +10,14 @@ void setup() {
 
 void loop() {
   digitalWrite(ledRed, HIGH); // Allume feu rouge
-  delay(1000); // Attend 1s
+  delay(6000); // Attend 6s
   digitalWrite(ledRed, LOW); // Eteind feu rouge
 
-  digitalWrite(ledYellow, HIGH); // Allume feu orange
-  delay(200); // Attend 200ms
-  digitalWrite(ledYellow, LOW); // Eteind feu orange
-
   digitalWrite(ledGreen, HIGH); // Allume feu vert
-  delay(1000); // Attend 1s
+  delay(8000); // Attend 8s
   digitalWrite(ledGreen, LOW); // Eteind feu vert
+
+  digitalWrite(ledYellow, HIGH); // Allume feu orange
+  delay(3000); // Attend 3s
+  digitalWrite(ledYellow, LOW); // Eteind feu orange
 }
