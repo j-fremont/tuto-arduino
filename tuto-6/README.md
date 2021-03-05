@@ -1,4 +1,4 @@
-## Capteur de luminosité
+## Mesurer la luminosité
 
 ![Pictures/tuto-6_bb.jpg](https://github.com/j-fremont/tuto-arduino/blob/master/Pictures/tuto-6_bb.jpg)
 

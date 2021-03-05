@@ -1,4 +1,4 @@
-## Capteur de temprérature et d'humidité DHT11 
+## Mesurer la température et l'humidité avec un DHT11 
 
 ![Pictures/tuto-8_bb.jpg](https://github.com/j-fremont/tuto-arduino/blob/master/Pictures/tuto-8_bb.jpg)
 

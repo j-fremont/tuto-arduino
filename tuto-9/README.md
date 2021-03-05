@@ -1,4 +1,4 @@
-## Afficheur 7 segments
+## Utiliser un afficheur 7 segments
 
 ![Pictures/tuto-9_bb.jpg](https://github.com/j-fremont/tuto-arduino/blob/master/Pictures/tuto-9_bb.jpg)
 

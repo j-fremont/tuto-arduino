@@ -1,4 +1,4 @@
-## LED multicolore 
+## Allumer une LED multicolore 
 
 ![Pictures/tuto-7_bb.jpg](https://github.com/j-fremont/tuto-arduino/blob/master/Pictures/tuto-7_bb.jpg)
 

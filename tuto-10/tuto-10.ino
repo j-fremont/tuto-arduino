@@ -28,48 +28,48 @@ void setup() {
 }
 
 void loop() {
+  off();
   selectDigit(1);
   one();
+  delayMicroseconds(55);
   
+  off();
   selectDigit(2);
   two();
+  delayMicroseconds(55);
   
+  off();
   selectDigit(3);
   three();
+  delayMicroseconds(55);
   
+  off();
   selectDigit(4);
   four();
+  delayMicroseconds(55);
 
-  delay(10000);
 }
 
 void selectDigit(int d) {
+
+  digitalWrite(d1, HIGH);
+  digitalWrite(d2, HIGH);
+  digitalWrite(d3, HIGH);
+  digitalWrite(d4, HIGH);
   
   switch(d)
   {
     case 1:
-      digitalWrite(d1, HIGH);
-      digitalWrite(d2, LOW);
-      digitalWrite(d3, LOW);
-      digitalWrite(d4, LOW);
+      digitalWrite(d1, LOW);
       break;
     case 2:
-      digitalWrite(d1, LOW);
-      digitalWrite(d2, HIGH);
-      digitalWrite(d3, LOW);
-      digitalWrite(d4, LOW);
+      digitalWrite(d2, LOW);
       break;
     case 3:
-      digitalWrite(d1, LOW);
-      digitalWrite(d2, LOW);
-      digitalWrite(d3, HIGH);
-      digitalWrite(d4, LOW);
+      digitalWrite(d3, LOW);
       break;
     default:
-      digitalWrite(d1, LOW);
-      digitalWrite(d2, LOW);
-      digitalWrite(d3, LOW);
-      digitalWrite(d4, HIGH);
+      digitalWrite(d4, LOW);
       break;
    }
 }

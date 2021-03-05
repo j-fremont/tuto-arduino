@@ -1,4 +1,4 @@
-## Alarme
+## Faire sonner une alarme
 
 ![Pictures/tuto-5_bb.jpg](https://github.com/j-fremont/tuto-arduino/blob/master/Pictures/tuto-5_bb.jpg)
 
