@@ -30,19 +30,17 @@ void setup() {
 void loop() {
   selectDigit(1);
   one();
-  delay(1000);
   
   selectDigit(2);
   two();
-  delay(1000);
   
   selectDigit(3);
   three();
-  delay(1000);
   
   selectDigit(4);
   four();
-  delay(1000);
+
+  delay(10000);
 }
 
 void selectDigit(int d) {
@@ -50,28 +48,28 @@ void selectDigit(int d) {
   switch(d)
   {
     case 1:
-      digitalWrite(d1, LOW);
-      //digitalWrite(d2, HIGH);
-      //digitalWrite(d3, HIGH);
-      //digitalWrite(d4, HIGH);
+      digitalWrite(d1, HIGH);
+      digitalWrite(d2, LOW);
+      digitalWrite(d3, LOW);
+      digitalWrite(d4, LOW);
       break;
     case 2:
-      //digitalWrite(d1, HIGH);
-      digitalWrite(d2, LOW);
-      //digitalWrite(d3, HIGH);
-      //digitalWrite(d4, HIGH);
+      digitalWrite(d1, LOW);
+      digitalWrite(d2, HIGH);
+      digitalWrite(d3, LOW);
+      digitalWrite(d4, LOW);
       break;
     case 3:
-      //digitalWrite(d1, HIGH);
-      //digitalWrite(d2, HIGH);
-      digitalWrite(d3, LOW);
-      //digitalWrite(d4, HIGH);
+      digitalWrite(d1, LOW);
+      digitalWrite(d2, LOW);
+      digitalWrite(d3, HIGH);
+      digitalWrite(d4, LOW);
       break;
     default:
-      //digitalWrite(d1, HIGH);
-      //digitalWrite(d2, HIGH);
-      //digitalWrite(d3, HIGH);
-      digitalWrite(d4, LOW);
+      digitalWrite(d1, LOW);
+      digitalWrite(d2, LOW);
+      digitalWrite(d3, LOW);
+      digitalWrite(d4, HIGH);
       break;
    }
 }
