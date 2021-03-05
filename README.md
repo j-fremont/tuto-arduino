@@ -10,6 +10,7 @@
 + tuto-8 : Mesurer la température et l'humidité avec un DHT11
 + tuto-9 : Utiliser un afficheur 7 segments
 + tuto-10 : Utiliser un afficheur 7 segments et 4 digits
++ tuto-11 : Utiliser un afficheur LCD
 
 Commande pour retailler la photo.
 
