@@ -11,6 +11,19 @@
 + tuto-9 : Utiliser un afficheur 7 segments
 + tuto-10 : Utiliser un afficheur 7 segments et 4 digits
 + tuto-11 : Utiliser un afficheur LCD
++ tuto-12 : Utiliser une matrice led 8x8
++ tuto-13 : Mesurer la température, la pression et l'altitude avec un BMP280
++ tuto-14 : Mesurer la luminosité avec un TLS2591
+
+## Ajout du user au group dialout
+
+Pour télécharger des sketchs, il faut que le user qui lance l'IDE Arduino soit dans le groupe dialout. Sinon le téléchargement provoque un permission denied sur le port de l'Arduino.
+
+```
+sudo usermod -aG dialout $USER
+```
+
+## Retailler les photos utiisées
 
 Commande pour retailler la photo.
 

@@ -8,3 +8,14 @@ Lors de la vérification du sketch, la librairie DHT11.h n'est pas reconnue par 
 
 Pour voir les informations affichées par le sketch avec Serial.println(), aller dans l'IDE Arduino, menu Outils, choisir Moniteur série.
 
+Les mesures sont un peu différentes entre le DHT11 4 PIN (sans board) et avec 3 MIN sur une board.
+
+Sans board - 4 PIN.
+```
+Humidity: 51.00%  Temperature: 20.00°C 68.00°F  Heat index: 19.39°C 66.90°F
+```
+
+Avec board - 3 PIN.
+```
+Humidity: 51.00%  Temperature: 21.50°C 70.70°F  Heat index: 21.04°C 69.87°F
+```
