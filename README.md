@@ -14,6 +14,7 @@
 + tuto-12 : Utiliser une matrice led 8x8
 + tuto-13 : Mesurer la température, la pression et l'altitude avec un BMP280
 + tuto-14 : Mesurer la luminosité avec un TLS2591
++ tuto-15 : Utiliser un capteur de mouvement
 
 ## Ajout du user au group dialout
 
