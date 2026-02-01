@@ -1,5 +1,7 @@
 ## Tutoriels Arduino
 
+Dans l'IDE Arduino, choisir Arduino AVR Boards, Arduino UNO.
+
 + tuto-1 : Faire clignoter une LED
 + tuto-2 : Faire varier la luminosité d'une LED
 + tuto-3 : Observer la tension et l'intensité
