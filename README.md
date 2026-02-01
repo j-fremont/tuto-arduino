@@ -17,6 +17,7 @@ Dans l'IDE Arduino, choisir Arduino AVR Boards, Arduino UNO.
 + tuto-13 : Mesurer la température, la pression et l'altitude avec un BMP280
 + tuto-14 : Mesurer la luminosité avec un TLS2591
 + tuto-15 : Utiliser un capteur de mouvement
++ tuto-16 : Utiliser l'Arduino Ethernet shield
 
 ## Ajout du user au group dialout
 
