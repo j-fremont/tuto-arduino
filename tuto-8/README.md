@@ -19,3 +19,5 @@ Avec board - 3 PIN.
 ```
 Humidity: 51.00%  Temperature: 21.50°C 70.70°F  Heat index: 21.04°C 69.87°F
 ```
+
+Il faut alimenter le DHT11 Waveshare (avec board) en 3,3V et l'autre (sans board) en 5V.
